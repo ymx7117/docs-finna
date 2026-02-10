@@ -10,13 +10,7 @@ export default defineConfig({
     outline:[2,6],
     logo:'/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', items:[
-        {text:'第一个',link:'/'},
-        {text:'第二个',link:'/api-examples'},
-        {text:'fontnUM1',link:'/fontNum1/'}
-      ] },
-      { text: 'Examples', link: '/markdown-examples' }
+    nav: [ {text:'文档',link:'/fontNum1/第一章'},
     ],
     sidebar: {
        "/fontNum1/":[
@@ -36,8 +30,15 @@ export default defineConfig({
       
       },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+   socialLinks: [
+      {
+        icon: {
+          svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                 <image href="finna-logo.png" width="24" height="24"/>
+               </svg>`
+        },
+        link: 'https://www.finna.com.cn'
+      }
     ],
     footer:{
       copyright:'版权所有 © 2023-present Vue.js'

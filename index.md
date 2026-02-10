@@ -7,15 +7,12 @@ hero:
   text: "用vitepress搭建"
   tagline: 用于生成说明文档
   image:
-      src: "/DeepSeek.png"
+      src: "/zsk-created-tip.png"
       alt: "背景图片"
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
-    - theme: alt
-      text: API 示例
-      link: /api-examples
+      text: Finna说明文档
+      link: /fontNum1/第一章
 
 features:
   - title: Feature A
