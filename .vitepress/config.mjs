@@ -4,7 +4,7 @@ export default defineConfig({
   title: "Finna产品手册",
    base: "/docs-finna/",
   description: "A VitePress Site",
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/docs-finna/logo.svg" }]],
   themeConfig: {
     outlineTitle:"目录",
     outline:[2,6],
